@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { supabase, User } from '../lib/supabase';
-import { Language, translations } from '../lib/i18n';
+import { Language, translations } from '../i18n';
 
 interface AppContextType {
   user: User | null;
